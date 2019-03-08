@@ -38,7 +38,6 @@ export default {
   letter-spacing: 0;
   text-align: center;
   margin-bottom: 30px;
-  max-width: 90%;
 }
 .tagline {
   font-weight: 500;
@@ -46,7 +45,6 @@ export default {
   color: #4b4b4b;
   letter-spacing: 0;
   text-align: center;
-  max-width: 90%;
 }
 
 .wrapper {
