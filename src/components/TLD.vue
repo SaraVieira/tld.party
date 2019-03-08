@@ -10,7 +10,10 @@
     </div>
     <span class="number">Found {{domains.length}} TLD's</span>
     <ul>
-      <li v-for="tld of domains"><span>{{tld}}</span></li>
+      <li
+        v-for="(tld, index) in domains"
+        :key="index"
+      ><span>{{tld}}</span></li>
     </ul>
   </div>
 </template>
