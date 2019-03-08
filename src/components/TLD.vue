@@ -6,7 +6,7 @@
         placeholder="filter"
         v-on:input="filter"
       />
-      <button>Search</button>
+      <button v-on:click="filter">Search</button>
     </div>
     <span class="number">Found {{domains.length}} TLD's</span>
     <ul>
