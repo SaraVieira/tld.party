@@ -60,7 +60,7 @@ export default {
     border-bottom: 2px solid #e1e1e1;
     width: 330px;
     padding-bottom: 12px;
-    font-family: Dosis-ExtraBold;
+    font-weight: 800;
     font-size: 54px;
     color: #4b4b4b;
     letter-spacing: 0;
@@ -72,7 +72,7 @@ export default {
     background: #6db0ff;
     box-shadow: 0 6px 14px 0 rgba(109, 176, 255, 0.3);
     border-radius: 100px;
-    font-family: Dosis-ExtraBold;
+    font-weight: 800;
     font-size: 30px;
     color: #ffffff;
     letter-spacing: 1.07px;
@@ -85,7 +85,7 @@ export default {
 }
 
 .number {
-  font-family: Dosis-Medium;
+  font-weight: 500;
   font-size: 24px;
   color: #b2a4ff;
   letter-spacing: 0;
@@ -122,7 +122,7 @@ ul {
     padding-left: 40px;
 
     span {
-      font-family: Dosis-ExtraBold;
+      font-weight: 800;
       font-size: 54px;
       color: #4b4b4b;
       letter-spacing: 0;
