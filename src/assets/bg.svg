@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="474" height="374" viewBox="0 0 474 374">
+  <defs>
+    <rect id="bg-a" width="474" height="374" rx="3"/>
+    <linearGradient id="bg-e" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".204"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+    <circle id="bg-d" cx="44.24" cy="84.688" r="135.248"/>
+    <filter id="bg-c" width="114.8%" height="114.8%" x="-7.4%" y="-5.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0530457428 0"/>
+    </filter>
+    <circle id="bg-g" cx="192.128" cy="35.392" r="89.744"/>
+    <filter id="bg-f" width="122.3%" height="122.3%" x="-11.1%" y="-8.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0530457428 0"/>
+    </filter>
+    <circle id="bg-i" cx="435.448" cy="113.128" r="71.416"/>
+    <filter id="bg-h" width="128%" height="128%" x="-14%" y="-11.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0530457428 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bg-b" fill="#fff">
+      <use xlink:href="#bg-a"/>
+    </mask>
+    <use fill="#FFF" xlink:href="#bg-a"/>
+    <g mask="url(#bg-b)">
+      <use fill="#000" filter="url(#bg-c)" xlink:href="#bg-d"/>
+      <use fill="#90F6FF" xlink:href="#bg-d"/>
+      <use fill="url(#bg-e)" xlink:href="#bg-d"/>
+    </g>
+    <g mask="url(#bg-b)">
+      <use fill="#000" filter="url(#bg-f)" xlink:href="#bg-g"/>
+      <use fill="#AB9CFF" xlink:href="#bg-g"/>
+      <use fill="url(#bg-e)" xlink:href="#bg-g"/>
+    </g>
+    <g mask="url(#bg-b)">
+      <use fill="#000" filter="url(#bg-h)" xlink:href="#bg-i"/>
+      <use fill="#FFA3C6" xlink:href="#bg-i"/>
+      <use fill="url(#bg-e)" xlink:href="#bg-i"/>
+    </g>
+  </g>
+</svg>
