@@ -6,7 +6,6 @@
         placeholder="filter"
         v-on:input="filter"
       />
-      <button v-on:click="filter">Search</button>
     </div>
     <span class="number">Found {{domains.length}} TLD's</span>
     <ul>
@@ -66,21 +65,7 @@ export default {
     letter-spacing: 0;
     text-align: center;
     background: transparent;
-  }
-
-  button {
-    background: #6db0ff;
-    box-shadow: 0 6px 14px 0 rgba(109, 176, 255, 0.3);
-    border-radius: 100px;
-    font-weight: 800;
-    font-size: 30px;
-    color: #ffffff;
-    letter-spacing: 1.07px;
-    text-align: center;
-    border: none;
-    width: 330px;
-    height: 50px;
-    margin: 40px 0;
+    margin-bottom: 80px;
   }
 }
 
