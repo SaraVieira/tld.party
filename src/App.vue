@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1 class="name">TLD.party 🎉</h1>
-    <h2 class="tagline">There a 1000+ fucking TLD’s in the world.</h2>
+    <h2 class="tagline">There are 1000+ fucking TLD’s in the world.</h2>
     <main class="wrapper">
       <TLD msg="Welcome to Your Vue.js App" />
     </main>
