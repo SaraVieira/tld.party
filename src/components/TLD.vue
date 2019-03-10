@@ -1,12 +1,22 @@
 <template>
   <div>
     <div class="search-wrapper">
-      <input v-model.trim="search" placeholder="filter" v-on:input="filter">
+      <input
+        v-model.trim="search"
+        placeholder="filter"
+        v-on:input="filter"
+      >
     </div>
     <span class="number">Found {{domains.length}} TLD's</span>
     <ul>
-      <li v-for="(tld, index) in domains" :key="index">
-        <a :href="'https://icannwiki.org/.' + tld.toLowerCase()" target="_blank">
+      <li
+        v-for="(tld, index) in domains"
+        :key="index"
+      >
+        <a
+          :href="'https://icannwiki.org/.' + tld.toLowerCase()"
+          target="_blank"
+        >
           <span>{{tld}}</span>
         </a>
       </li>
@@ -117,7 +127,6 @@ ul {
         @media screen and (max-width: 700px) {
           font-size: 24px;
         }
-
         &:after {
           content: '';
           background: #6db0ff;
@@ -127,18 +136,8 @@ ul {
           width: 100%;
           display: block;
           position: absolute;
-        margin-top: 19px;
+          margin-top: 19px;
         }
-      &:after {
-        content: '';
-        background: #6db0ff;
-        box-shadow: 0 6px 12px 0 rgba(109, 176, 255, 0.2);
-        border-radius: 3px;
-        height: 4px;
-        width: 100%;
-        display: block;
-        position: absolute;
-        margin-top: 19px;
       }
     }
   }
