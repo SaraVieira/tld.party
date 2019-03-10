@@ -1,0 +1,23 @@
+{
+  "projectName": "tld.party",
+  "projectOwner": "SaraVieira",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "vigzmv",
+      "name": "Vignesh M",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14950089?v=4",
+      "profile": "https://vigneshm.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
