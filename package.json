@@ -12,6 +12,7 @@
     "contributors:generate": "all-contributors generate"
   },
   "dependencies": {
+    "v-tooltip": "^2.0.0-rc.33",
     "vue": "^2.6.6"
   },
   "devDependencies": {

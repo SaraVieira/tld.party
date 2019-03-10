@@ -13,21 +13,20 @@
         v-for="(tld, index) in domains"
         :key="index"
       >
-        <a
-          :href="'https://icannwiki.org/.' + tld.toLowerCase()"
-          target="_blank"
-        >
-          <span>{{tld}}</span>
-        </a>
+        <Single :tld="tld" />
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-import tld from '../tld.json'
+import tld from '../new.json'
+import Single from './single'
 export default {
   name: 'HelloWorld',
+  components: {
+    Single
+  },
   data() {
     return {
       search: '',
@@ -40,7 +39,9 @@ export default {
     },
     filter() {
       this.domains = tld.filter(t =>
-        this.normalize(t).includes(this.normalize(this.search.replace('.', '')))
+        this.normalize(t.name).includes(
+          this.normalize(this.search.replace('.', ''))
+        )
       )
     }
   }
@@ -107,39 +108,11 @@ ul {
     box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.05);
     border-radius: 3px;
     margin-bottom: 30px;
-    height: 100px;
-    text-align: center;
+    min-height: 100px;
     display: flex;
-    align-items: center;
-    padding-left: 40px;
-
-    a {
-      text-decoration: none;
-
-      span {
-        font-weight: 800;
-        font-size: 54px;
-        color: #4b4b4b;
-        letter-spacing: 0;
-        text-align: center;
-        position: relative;
-
-        @media screen and (max-width: 700px) {
-          font-size: 24px;
-        }
-        &:after {
-          content: '';
-          background: #6db0ff;
-          box-shadow: 0 6px 12px 0 rgba(109, 176, 255, 0.2);
-          border-radius: 3px;
-          height: 4px;
-          width: 100%;
-          display: block;
-          position: absolute;
-          margin-top: 19px;
-        }
-      }
-    }
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
   }
 }
 </style>
