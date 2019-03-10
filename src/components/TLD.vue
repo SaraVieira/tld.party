@@ -127,7 +127,7 @@ ul {
         width: 100%;
         display: block;
         position: absolute;
-        margin-top: 12px;
+        margin-top: 19px;
       }
     }
   }
