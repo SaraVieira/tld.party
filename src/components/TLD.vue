@@ -127,8 +127,18 @@ ul {
           width: 100%;
           display: block;
           position: absolute;
-          margin-top: 12px;
+        margin-top: 19px;
         }
+      &:after {
+        content: '';
+        background: #6db0ff;
+        box-shadow: 0 6px 12px 0 rgba(109, 176, 255, 0.2);
+        border-radius: 3px;
+        height: 4px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        margin-top: 19px;
       }
     }
   }
