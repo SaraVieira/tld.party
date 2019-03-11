@@ -2591,14 +2591,6 @@
     "DNSSEC": "al-Yaman"
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".academy",
     "entity": "academic institutes",
     "administrator": "—",
@@ -2797,14 +2789,6 @@
     "notes": "Amazon Registry Services, Inc.",
     "IDN": null,
     "DNSSEC": false
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".baby",
@@ -3101,14 +3085,6 @@
     "notes": "DOTSTRATEGY",
     "IDN": true,
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".cab",
@@ -3615,14 +3591,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".dad",
     "entity": "families",
     "administrator": "—",
@@ -3863,14 +3831,6 @@
     "DNSSEC": false
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".earth",
     "entity": null,
     "administrator": null,
@@ -4005,14 +3965,6 @@
     "notes": "Donuts",
     "IDN": true,
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".fail",
@@ -4295,14 +4247,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".gallery",
     "entity": "photo and art galleries",
     "administrator": "—",
@@ -4469,14 +4413,6 @@
     "notes": "Donuts",
     "IDN": "Yes",
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".hair",
@@ -4655,14 +4591,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".ice",
     "entity": null,
     "administrator": null,
@@ -4751,14 +4679,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".jewelry",
     "entity": "jewelry stores",
     "administrator": "—",
@@ -4797,14 +4717,6 @@
     "notes": "Donuts",
     "IDN": true,
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".land",
@@ -4997,14 +4909,6 @@
     "notes": "Luxury Partners",
     "IDN": true,
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".makeup",
@@ -5223,14 +5127,6 @@
     "DNSSEC": false
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".name",
     "entity": "individuals, by name",
     "administrator": "Open TLD; any person or entity is permitted to register; however, registrations may be challenged later if they are not by individuals (or the owners of fictional characters) in accordance with the domain's charter.",
@@ -5373,14 +5269,6 @@
     "notes": "The Estée Lauder Companies Inc.",
     "IDN": null,
     "DNSSEC": false
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".page",
@@ -5663,14 +5551,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".racing",
     "entity": "racing",
     "administrator": "—",
@@ -5885,14 +5765,6 @@
     "notes": "Donuts",
     "IDN": true,
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".safe",
@@ -6279,14 +6151,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".talk",
     "entity": null,
     "administrator": null,
@@ -6615,14 +6479,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Target market",
-    "administrator": "Restrictions",
-    "notes": "Operator/Registry",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".wang",
     "entity": "general\nWǎng is a Chinese Mandarin pinyin rendering of 网 (traditional 網) meaning \"web\" or \"portal\".\nWang is also a common surname in mainland China.",
     "administrator": "—",
@@ -6823,14 +6679,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Chinese term",
-    "administrator": "Translation",
-    "notes": "Restrictions",
-    "IDN": "Operator",
-    "DNSSEC": "IDN"
-  },
-  {
     "name": ".shouji",
     "entity": "手机 shŏujī",
     "administrator": "mobile phone",
@@ -6869,14 +6717,6 @@
     "notes": null,
     "IDN": "QIHOO 360 TECHNOLOGY CO. LTD.",
     "DNSSEC": false
-  },
-  {
-    "name": "name",
-    "entity": "Translation",
-    "administrator": "Restrictions",
-    "notes": "Operator",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".arte",
@@ -6933,14 +6773,6 @@
     "notes": "Donuts",
     "IDN": true,
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Translation",
-    "administrator": "Restrictions",
-    "notes": "Operator",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".epost",
@@ -7031,14 +6863,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Translation",
-    "administrator": "Restrictions",
-    "notes": "Operator",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".desi",
     "entity": "Hindi for the peoples and cultures of South Asia\nSee also Desi",
     "administrator": "—",
@@ -7053,14 +6877,6 @@
     "notes": "Afilias",
     "IDN": "Unknown",
     "DNSSEC": true
-  },
-  {
-    "name": "name",
-    "entity": "Translation",
-    "administrator": "Restrictions",
-    "notes": "Operator",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".casa",
@@ -7095,14 +6911,6 @@
     "DNSSEC": true
   },
   {
-    "name": "name",
-    "entity": "Translation",
-    "administrator": "Restrictions",
-    "notes": "Operator",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
-  },
-  {
     "name": ".bom",
     "entity": "good",
     "administrator": null,
@@ -7117,14 +6925,6 @@
     "notes": "Travel Reservations SRL",
     "IDN": null,
     "DNSSEC": false
-  },
-  {
-    "name": "name",
-    "entity": "Translation",
-    "administrator": "Restrictions",
-    "notes": "Operator",
-    "IDN": "IDN",
-    "DNSSEC": "DNSSEC"
   },
   {
     "name": ".abogado",
@@ -7215,14 +7015,6 @@
     "DNSSEC": false
   },
   {
-    "name": "DNS name",
-    "entity": "IDN",
-    "administrator": "Language",
-    "notes": "Script",
-    "IDN": "Transliteration",
-    "DNSSEC": "English Translation"
-  },
-  {
     "name": "xn--4gbrim",
     "entity": "موقع.",
     "administrator": "Arabic",
@@ -7277,14 +7069,6 @@
     "notes": "Arabic",
     "IDN": "bâzâr",
     "DNSSEC": "market\", \"bazaar"
-  },
-  {
-    "name": "DNS name",
-    "entity": "IDN",
-    "administrator": "Language",
-    "notes": "Script",
-    "IDN": "Transliteration",
-    "DNSSEC": "English Translation"
   },
   {
     "name": "xn--3ds443g",
@@ -7407,14 +7191,6 @@
     "DNSSEC": "philanthropy"
   },
   {
-    "name": "DNS name",
-    "entity": "IDN",
-    "administrator": "Language",
-    "notes": "Script",
-    "IDN": "Transliteration",
-    "DNSSEC": "English Translation"
-  },
-  {
     "name": "xn--d1acj3b",
     "entity": ".дети",
     "administrator": "Russian",
@@ -7461,14 +7237,6 @@
     "notes": "Cyrillic (Russian)",
     "IDN": "sait",
     "DNSSEC": "site"
-  },
-  {
-    "name": "DNS name",
-    "entity": "IDN",
-    "administrator": "Language",
-    "notes": "Script",
-    "IDN": "Transliteration",
-    "DNSSEC": "English Translation"
   },
   {
     "name": "xn--i1b6b1a6a2e",
@@ -7583,14 +7351,6 @@
     "DNSSEC": "com"
   },
   {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
-    "DNSSEC": false
-  },
-  {
     "name": ".africa",
     "entity": "Africa",
     "administrator": "",
@@ -7620,14 +7380,6 @@
     "administrator": "",
     "notes": "Unknown",
     "IDN": true,
-    "DNSSEC": false
-  },
-  {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
     "DNSSEC": false
   },
   {
@@ -7748,14 +7500,6 @@
     "administrator": "",
     "notes": "Japanese",
     "IDN": true,
-    "DNSSEC": false
-  },
-  {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
     "DNSSEC": false
   },
   {
@@ -8063,14 +7807,6 @@
     "DNSSEC": false
   },
   {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
-    "DNSSEC": "Alternatives"
-  },
-  {
     "name": ".boston",
     "entity": "Boston, Massachusetts",
     "administrator": "",
@@ -8111,14 +7847,6 @@
     "DNSSEC": ".las-vegas.nv.us"
   },
   {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
-    "DNSSEC": false
-  },
-  {
     "name": ".kiwi",
     "entity": "New Zealanders",
     "administrator": "",
@@ -8143,14 +7871,6 @@
     "DNSSEC": false
   },
   {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
-    "DNSSEC": false
-  },
-  {
     "name": ".lat",
     "entity": "Latin America",
     "administrator": "",
@@ -8165,14 +7885,6 @@
     "notes": "Unknown",
     "IDN": true,
     "DNSSEC": false
-  },
-  {
-    "name": "DNS name",
-    "entity": "IDN",
-    "administrator": "entity",
-    "notes": "Language",
-    "IDN": "Script",
-    "DNSSEC": "Transliteration"
   },
   {
     "name": "xn--1qqw23a",
@@ -8221,14 +7933,6 @@
     "notes": "Arabic",
     "IDN": "Arabic",
     "DNSSEC": "‘Arab"
-  },
-  {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
-    "DNSSEC": false
   },
   {
     "name": ".aaa",
@@ -11583,14 +11287,6 @@
     "DNSSEC": false
   },
   {
-    "name": "DNS name",
-    "entity": "IDN TLD",
-    "administrator": "entity",
-    "notes": "Script",
-    "IDN": "Transliteration",
-    "DNSSEC": "Comments"
-  },
-  {
     "name": "xn--mgba3a3ejt",
     "entity": ".ارامكو",
     "administrator": "Aramco Services Company",
@@ -11741,14 +11437,6 @@
     "notes": "Hangul",
     "IDN": "samseong",
     "DNSSEC": ""
-  },
-  {
-    "name": "name",
-    "entity": "entity",
-    "administrator": "notes",
-    "notes": "IDN",
-    "IDN": "DNSSEC",
-    "DNSSEC": false
   },
   {
     "name": ".example",
