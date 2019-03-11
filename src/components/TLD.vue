@@ -4,16 +4,16 @@
       <input
         v-model.trim="search"
         placeholder="filter"
-        v-on:input="filter"
+        @input="filter"
       >
     </div>
     <span class="number">Found {{domains.length}} TLD's</span>
     <ul>
       <li
         v-for="(tld, index) in domains"
-        :key="index"
+        :key="`${index}-${tld.name}`"
       >
-        <Single :tld="tld" />
+        <single :tld="tld" />
       </li>
     </ul>
   </div>
@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     normalize(text) {
-      return text.trim().toLowerCase()
+      return text.trim().toLowerCase();
     },
     filter() {
       this.domains = tld.filter(t =>
