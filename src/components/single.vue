@@ -2,7 +2,7 @@
   <section>
     <div class="top">
       <a
-        :href="'https://icannwiki.org/.' + tld.name.toLowerCase()"
+        :href="'https://icannwiki.org/' + tld.name.toLowerCase()"
         target="_blank"
       >
         <span>{{tld.name}}</span>
