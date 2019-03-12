@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     normalize(text) {
-      return text.trim().toLowerCase();
+      return text.trim().toLowerCase()
     },
     filter() {
       this.domains = tld.filter(t =>
