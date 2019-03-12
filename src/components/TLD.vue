@@ -4,14 +4,14 @@
       <input
         v-model.trim="search"
         placeholder="filter"
-        v-on:input="filter"
+        @input="filter"
       >
     </div>
     <span class="number">Found {{domains.length}} TLD's</span>
     <ul>
       <li
-        v-for="(tld, index) in domains"
-        :key="index"
+        v-for="tld in domains"
+        :key="tld.name"
       >
         <Single :tld="tld" />
       </li>
