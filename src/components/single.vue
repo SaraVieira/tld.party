@@ -1,25 +1,23 @@
 <template>
   <section>
     <div class="top">
-      <a
-        :href="'https://icannwiki.org/' + tld.name.toLowerCase()"
-        target="_blank"
-      >
-        <span>{{tld.name}}</span>
-        <!-- {{JSON.stringify(tld)}} -->
+      <a :href="tldLink" target="_blank">
+        {{tld.name}}
       </a>
-      <button v-on:click="open = !open">
-        <img
-          v-if="!open"
-          width="30"
-          src="../assets/down.svg"
-          alt="show more"
-        />
+
+      <button @click="toggleInfo">
         <img
           v-if="open"
           width="30"
           src="../assets/up.svg"
           alt="show less"
+        />
+
+        <img
+          v-else
+          width="30"
+          src="../assets/down.svg"
+          alt="show more"
         />
       </button>
     </div>
@@ -27,18 +25,23 @@
       class="open"
       v-if="open"
     >
-      <p class="notes">{{tld.notes}}</p>
+      <p class="notes" v-html="tld.notes" />
       <p v-if="tld.entity"><b>Entity: </b>{{tld.entity}}</p>
       <p v-if="tld.administrator"><b>Administrator: </b>{{tld.administrator}}</p>
       <div class="asides">
         <div
           v-tooltip.top-center="IDN"
-          v-bind:class="{ exists: tld.IDN, square: true }"
-        >IDN</div>
+          :class="['square', { exists: tld.IDN }]"
+        >
+          IDN
+        </div>
+
         <div
           v-tooltip.top-center="DNSSEC"
-          v-bind:class="{ exists: tld.DNSSEC, square: true }"
-        >DNSSEC</div>
+          :class="['square', { exists: tld.DNSSEC }]"
+        >
+          DNSSEC
+        </div>
       </div>
     </div>
   </section>
@@ -54,7 +57,21 @@ export default {
         'The Domain Name System Security Extensions (DNSSEC) is a suite of Internet Engineering Task Force (IETF) specifications for securing certain kinds of information provided by the Domain Name System (DNS) as used on Internet Protocol (IP) networks.',
       open: false
     }
-  }
+  },
+
+  computed: {
+      tldLink() {
+        const tld = this.tld.name.toLowerCase();
+
+        return `https://icannwiki.org/${tld}`;
+      },
+  },
+
+  methods: {
+      toggleInfo() {
+          this.open = !this.open;
+      },
+  },
 }
 </script>
 
@@ -90,28 +107,26 @@ section {
   a {
     text-decoration: none;
 
-    span {
-      font-weight: 800;
-      font-size: 54px;
-      color: #4b4b4b;
-      letter-spacing: 0;
-      text-align: center;
-      position: relative;
+    font-weight: 800;
+    font-size: 54px;
+    color: #4b4b4b;
+    letter-spacing: 0;
+    text-align: center;
+    position: relative;
 
-      @media screen and (max-width: 700px) {
-        font-size: 24px;
-      }
-      &:after {
-        content: '';
-        background: #6db0ff;
-        box-shadow: 0 6px 12px 0 rgba(109, 176, 255, 0.2);
-        border-radius: 3px;
-        height: 4px;
-        width: 100%;
-        display: block;
-        position: absolute;
-        margin-top: 19px;
-      }
+    @media screen and (max-width: 700px) {
+      font-size: 24px;
+    }
+    &:after {
+      content: '';
+      background: #6db0ff;
+      box-shadow: 0 6px 12px 0 rgba(109, 176, 255, 0.2);
+      border-radius: 3px;
+      height: 4px;
+      width: 100%;
+      display: block;
+      position: absolute;
+      margin-top: 19px;
     }
   }
 }
