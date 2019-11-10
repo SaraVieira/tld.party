@@ -10470,5 +10470,13 @@
     "notes": "Unknown",
     "IDN": null,
     "DNSSEC": false
+  },
+    {
+    "name": ".monster",
+    "entity": null,
+    "administrator": "",
+    "notes": "Unknown",
+    "IDN": true,
+    "DNSSEC": false
   }
 ]
